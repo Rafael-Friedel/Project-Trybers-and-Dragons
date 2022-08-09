@@ -2,4 +2,4 @@
 
 // export default Battle;
 
-// inciando projeto.
+// iniciando o projeto
