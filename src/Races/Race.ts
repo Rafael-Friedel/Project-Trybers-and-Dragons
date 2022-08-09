@@ -1,4 +1,6 @@
-abstract class Race {
+import IRace from './interfaces/Race';
+
+abstract class Race implements IRace {
   private _name: string;
   private _dexterity: number;
 
@@ -18,7 +20,7 @@ abstract class Race {
   abstract get maxLifePoints(): number;
 
   static createdRacesInstances() {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 }
 
