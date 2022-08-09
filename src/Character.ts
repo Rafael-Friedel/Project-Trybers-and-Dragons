@@ -54,7 +54,7 @@ class Character implements Fighter {
   }
 
   get energy() {
-    return this._energy;
+    return { ...this._energy };
   }
 
   levelUp(): void {
